@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "lib": ["es2018"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules/**/*"],
+  "include": ["./src/**/*"]
+}
