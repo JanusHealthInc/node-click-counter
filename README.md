@@ -3,23 +3,25 @@ This is a simple node server that tracks the number of clicks passed to it from 
 
 ## Dependencies
 [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
+
 OR
+
 [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Build & Run
 Build steps are available using Yarn or NPM for ease. Either will work and only one is needed.
 
 ### Yarn
-    - Install dependencies with `yarn install`
-    - Build application with `yarn tsc`
-    - Run application with `yarn start`
-    - Application will be viewable at `localhost:3000`
+    * Install dependencies with `yarn install`
+    * Build application with `yarn tsc`
+    * Run application with `yarn start`
+    * Application will be viewable at `localhost:3000`
 
 ### NPM
-    - Install dependencies with `npm install`
-    - Build application with `npm run tsc`
-    - Run application with `npm run start`
-    - Application will be viewable at `localhost:3000`
+    * Install dependencies with `npm install`
+    * Build application with `npm run tsc`
+    * Run application with `npm run start`
+    * Application will be viewable at `localhost:3000`
 
 ## API
 
