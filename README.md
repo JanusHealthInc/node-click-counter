@@ -9,21 +9,24 @@ OR
 [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Build & Run
-Build steps are available using Yarn or NPM for ease. Either will work and only one is needed.
+Build steps are available using Yarn or NPM for ease. Either will work and only one is needed. When the application is started it will be available at http://localhost:3000
 
 ### Yarn
 
-    * Install dependencies with `yarn install`
-    * Build application with `yarn tsc`
-    * Run application with `yarn start`
-    * Application will be viewable at `localhost:3000`
+``` sh
+yarn install
+yarn tsc
+yarn start
+```
 
 ### NPM
 
-    * Install dependencies with `npm install`
-    * Build application with `npm run tsc`
-    * Run application with `npm run start`
-    * Application will be viewable at `localhost:3000`
+``` sh
+npm install
+npm run tsc
+npm run start
+```
+
 
 ## API
 
