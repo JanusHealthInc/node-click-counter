@@ -12,12 +12,14 @@ OR
 Build steps are available using Yarn or NPM for ease. Either will work and only one is needed.
 
 ### Yarn
+
     * Install dependencies with `yarn install`
     * Build application with `yarn tsc`
     * Run application with `yarn start`
     * Application will be viewable at `localhost:3000`
 
 ### NPM
+
     * Install dependencies with `npm install`
     * Build application with `npm run tsc`
     * Run application with `npm run start`
