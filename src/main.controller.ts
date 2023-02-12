@@ -10,6 +10,7 @@ export default class MainController {
    */
   register(app: Express): void {
     app.post("/user/clicks", (req: express.Request, res: express.Response) => {
+      console.debug('POST /user/clicks', JSON.stringify(req.body))
       const clickCount = req.body.click_count;
       const totalClicks = clickerService.addClicks(clickCount);
 
@@ -21,15 +22,17 @@ export default class MainController {
     });
 
     app.get("/user/clicks", (req: express.Request, res: express.Response) => {
+      console.debug('GET /user/clicks', JSON.stringify(req.body))
       const responseObj = {
         click_count: clickerService.getTotalClicks(),
       };
       return res.send(responseObj);
     });
 
-    app.get(
+    app.post(
       "/user/clicks/reset",
       (req: express.Request, res: express.Response) => {
+        console.debug('POST /user/clicks/reset', JSON.stringify(req.body))
         const responseObj = {
           click_count: clickerService.resetTotalClicks(),
         };

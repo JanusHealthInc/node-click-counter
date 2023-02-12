@@ -15,7 +15,6 @@ Build steps are available using Yarn or NPM for ease. Either will work and only 
 
 ``` sh
 yarn install
-yarn tsc
 yarn start
 ```
 
@@ -23,7 +22,6 @@ yarn start
 
 ``` sh
 npm install
-npm run tsc
 npm run start
 ```
 
