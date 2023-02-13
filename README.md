@@ -54,7 +54,7 @@ Response & Request Body:
 
 
 ### Reset click count
-#### GET `/user/clicks/reset`
+#### POST `/user/clicks/reset`
 This endpoint resets the total click count to 0. Mostly useful for debugging.
 
 Response Body:
